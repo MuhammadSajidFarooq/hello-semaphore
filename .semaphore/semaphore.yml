@@ -26,7 +26,7 @@ blocks:
 after_pipeline:
   task:
     jobs:
-      - name: ''
+      - name: 'Job #2'
         commands: []
 promotions:
   - name: Production deployment
