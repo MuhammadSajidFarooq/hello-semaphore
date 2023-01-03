@@ -23,11 +23,6 @@ blocks:
         - name: Integration tests
           commands:
             - echo 'running integration tests'
-after_pipeline:
-  task:
-    jobs:
-      - name: 'Job #2'
-        commands: []
 promotions:
   - name: Production deployment
     pipeline_file: pipeline_2.yml
